@@ -127,10 +127,10 @@ title-fade-in {
   color: #fff;
   border-radius: 15px;
   margin-right: 10px;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .Contact-icons:hover{
@@ -139,5 +139,5 @@ title-fade-in {
 }
 
 .fa-envelope, .fa-github, .fa-twitter-square, .fa-facebook, .fa-instagram{
-  font-size: 50px;
+  font-size: 30px;
 }
