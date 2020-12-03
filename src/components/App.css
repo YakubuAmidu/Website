@@ -34,6 +34,24 @@ title-fade-in {
   }
 }
 
+.Link-one{
+  color: #fff;
+}
+
+.Link-one:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.Link-two{
+  color: #777;
+}
+
+.Link-two:hover{
+  text-decoration: none;
+  color: #777;
+}
+
 
 .fa-laptop-code{
   font-size: 40px;
@@ -45,8 +63,8 @@ title-fade-in {
 
 .App {
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
 }
 
 
@@ -74,14 +92,16 @@ title-fade-in {
 
 .project{
   width: 300px;
-  height: 300px;
+  height: 250px;
   border-radius: 15px;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
-.project:hover{
-  box-shadow: 0px 2px 2px 2px;
+.Project-description{
+  font-family: 'Teko', sans-serif;
 }
+
 
 .Jokes {
   font-family: 'Anton', sans-serif;

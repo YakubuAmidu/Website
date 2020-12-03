@@ -11,12 +11,12 @@ class Links extends Component{
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
              <Nav className="mr-auto">
-             <Nav.Link href="#home" className="Link"><Link to="/">HOME</Link></Nav.Link>
+             <Nav.Link href="#home"><Link to="/" className="Link-one">HOME</Link></Nav.Link>
              <NavDropdown title="DROPDOWN" id="basic-nav-dropdown">
-             <NavDropdown.Item href="#action/3.1"><Link to="/portfolio">PORTFOLIO</Link></NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2"><Link to="/jokes">JOKES</Link></NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.1"><Link to="/music-master">MUSIC MASTER</Link></NavDropdown.Item>
-           <NavDropdown.Item href="#action/3.3"><Link to="/contact">CONTACT</Link></NavDropdown.Item>
+             <NavDropdown.Item href="#action/3.1"><Link to="/portfolio" className="Link-two">PORTFOLIO</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2"><Link to="/jokes" className="Link-two">JOKES</Link></NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.1"><Link to="/music-master" className="Link-two">MUSIC MASTER</Link></NavDropdown.Item>
+           <NavDropdown.Item href="#action/3.3"><Link to="/contact" className="Link-two">CONTACT</Link></NavDropdown.Item>
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>

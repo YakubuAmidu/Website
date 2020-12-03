@@ -9,12 +9,12 @@
   src: url(assets/roboto-condensed.light.ttf);
 }
 
-body {
+/* body {
   text-align: center;
   font-size: 30px;
   padding: 2.5%;
   font-family: "RobotoCondensed";
-}
+} */
 
 .App-title{
   margin-top: 30px;

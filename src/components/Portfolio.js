@@ -13,41 +13,59 @@ class Portfolio extends Component{
       <Container>
       <p className="Project">Hightlighted projects</p>
        <Row>
-       <Col sm={12} lg={4}>
+       <Col>
         <div className="Project-header">
         <img src={reactnativeone} alt="img" className="project"/>
+        <p className="Project-description">
+        Native game
+        </p>
         </div>
        </Col>
 
-       <Col sm={12} lg={4}>
+       <Col>
         <div className="Project-header">
         <img src={reactnativetwo} alt="img" className="project"/>
+        <p className="Project-description">
+         Native restaurant
+        </p>
         </div>
        </Col>
 
        <Col>
         <div className="Project-header">
         <img src={reactnativethree} alt="img" className="project"/>
+        <p className="Project-description">
+        Native restaurant
+        </p>
         </div>
        </Col>
        </Row>
 
        <Row>
-       <Col sm={12} lg={4}>
+       <Col>
         <div className="Project-header">
         <img src={reactone} alt="img" className="project"/>
+        <p className="Project-description">
+        React e-commerce
+        </p>
         </div>
        </Col>
 
-       <Col sm={12} lg={4}>
+       <Col>
         <div className="Project-header">
         <img src={reacttwo} alt="img" className="project"/>
+        <p className="Project-description">
+        React e-commerce
+        </p>
         </div>
        </Col>
 
        <Col>
         <div className="Project-header">
         <img src={reactthree} alt="img" className="project"/>
+        <p className="Project-description">
+        React reviews
+        </p>
         </div>
        </Col>
        </Row>
