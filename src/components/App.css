@@ -1,0 +1,123 @@
+body{
+    font-size: 30px;
+    color: #777;
+    line-height: 1.5;
+}
+
+title-fade-in {
+  opacity: 100;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+.title-fade-out {
+  opacity: 0;
+  animation-name: fade-out;
+  animation-duration: 2s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 100;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+.fa-laptop-code{
+  font-size: 40px;
+}
+
+.Header-links{
+  margin-bottom: 70px;
+}
+
+.App {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.profile{
+  width: 180px;
+  height: 200px;
+}
+
+.Show{
+  margin-bottom: 30px;
+}
+
+.Project-header{
+  margin-top: 30px;
+}
+
+.Project{
+  font-family: 'Anton', sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: green;
+}
+
+.project{
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.project:hover{
+  box-shadow: 0px 2px 2px 2px;
+}
+
+.Jokes {
+  font-family: 'Anton', sans-serif;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: green;
+}
+
+.Contact-header{
+  padding-bottom: 30px;
+}
+
+.Connect{
+  color: green;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.Contact-icons{
+  background-color: lightblue;
+  color: #fff;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Contact-icons:hover{
+  cursor: pointer;
+  background-color: #eee;
+}
+
+.fa-envelope, .fa-github, .fa-twitter-square, .fa-facebook, .fa-instagram{
+  font-size: 50px;
+}
