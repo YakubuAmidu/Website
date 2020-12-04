@@ -8,6 +8,12 @@ import Portfolio from "./components/Portfolio";
 import Jokes from "./components/Jokes";
 import MusicMaster from "./projects/music-master";
 import Contact from "./components/Contact";
+import Reactnativeone from "./screens/Reactnativeone";
+import Reactnativetwo from "./screens/Reactnativetwo";
+import Reactnativethree from "./screens/Reactnativethree";
+import Reactone from "./screens/Reactone";
+import Reacttwo from "./screens/Reacttwo";
+import Reactthree from "./screens/Reactthree";
 
 ReactDOM.render(
   <Router history={createBrowserHistory()}>
@@ -17,6 +23,12 @@ ReactDOM.render(
   <Route path="/jokes" component={Jokes} />
   <Route path="/music-master" components={MusicMaster} />
   <Route path="/contact" components={Contact} />
+  <Route path="/reactnativeone" components={Reactnativeone} />
+  <Route path="/reactnativetwo" components={Reactnativetwo} />
+ <Route path="/reactnativethree" components={Reactnativethree} />
+ <Route path="/reactone" components={Reactone} />
+ <Route path="/reacttwo" components={Reacttwo} />
+ <Route path="/reactthree" components={Reactthree} />
   </Switch>
   </Router>,
   document.getElementById('root')

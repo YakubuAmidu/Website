@@ -3,7 +3,7 @@ import Header from "./Header";
 import Portfolio from "./Portfolio";
 import Jokes from "./Jokes";
 import MusicMaster from ".././projects/music-master";
-import Contact from "./Contact";
+import SocialProfiles from "./SocialProfiles";
 
 function App() {
   return (
@@ -16,8 +16,9 @@ function App() {
     <Jokes />
     <hr />
   <MusicMaster />
- <hr />
- <Contact />
+ <br />
+ <SocialProfiles />
+ <br />
     </div>
   );
 }

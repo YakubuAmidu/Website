@@ -6,7 +6,7 @@ class Contact extends Component{
       <div className="Contact-header">
       <h2 className="Connect">Connect with me</h2>
       <span className="Contact-icons">
-       <i class="fas fa-envelope"></i>
+     <i class="fas fa-envelope"></i>
       </span>
 
       <span className="Contact-icons">

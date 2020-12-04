@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-class Music extends Component {
+class Reactnativeone extends Component {
   render(){
     return (
       <div>
-       <h3>Music</h3>
+      <h1>Reactnativeone</h1>
       </div>
     )
   }
 }
 
-export default Music;
+export default Reactnativeone;

@@ -23,8 +23,8 @@ class Jokes extends Component {
 
   render() {
     return (
-      <div>
-        <p className="Jokes">Highlighted Jokes</p>
+      <div className="Jokes">
+        <p className="Hightlighted">Highlighted Jokes</p>
         <Joke joke={this.state.joke} />
         <h3>Want ten new jokes?</h3>
         <button onClick={this.fetchJokes} className="btn btn-outline-dark">Click me!</button>
