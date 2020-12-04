@@ -13,9 +13,9 @@ function App() {
     <hr />
     <Portfolio />
     <hr />
-    <Jokes />
-    <hr />
   <MusicMaster />
+  <hr />
+  <Jokes />
  <br />
  <SocialProfiles />
  <br />
