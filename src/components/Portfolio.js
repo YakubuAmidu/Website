@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import reactnativeone from "../assets/reactnativeone.png";
-import reactnativetwo from "../assets/reactnativetwo.png";
 import reactone from "../assets/reactone.png";
 import reacttwo from '../assets/reacttwo.png';
 import reactthree from '../assets/reactthree.png';
@@ -13,20 +11,6 @@ class Portfolio extends Component{
     return(
       <Container className="Project-header">
       <p className="Project">Hightlighted projects</p>
-       <Row>
-       <Col sm={12} md={12} lg={6}>
-        <div className="Project-header-one">
-        <Link to="/reactnativeone"><img src={reactnativeone} alt="img" className="projectone"/></Link>
-        </div>
-       </Col>
-
-       <Col sm={12} md={12} lg={6}>
-        <div className="Project-header">
-        <Link to="/reactnativetwo"><img src={reactnativetwo} alt="img" className="projectone"/></Link>
-        </div>
-       </Col>
-       </Row>
-
        <Row>
        <Col sm={12} md={12} lg={6}>
         <div className="Project-header">
