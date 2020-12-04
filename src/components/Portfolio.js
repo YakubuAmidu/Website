@@ -12,27 +12,27 @@ class Portfolio extends Component{
       <Container className="Project-header">
       <p className="Project">Hightlighted projects</p>
        <Row>
-       <Col sm={12} md={12} lg={6}>
+       <Col sm={12} md={6} lg={6}>
         <div className="Project-header">
-        <Link to="/reactnativethree"><img src={reactone} alt="img" className="project"/></Link>
+        <Link to="/reactone"><img src={reactone} alt="img" className="project"/></Link>
         </div>
        </Col>
 
-       <Col sm={12} md={12} lg={6}>
+       <Col sm={12} md={6} lg={6}>
         <div className="Project-header">
-        <Link to="/reactone"><img src={reacttwo} alt="img" className="project"/></Link>
+        <Link to="/reacttwo"><img src={reacttwo} alt="img" className="project"/></Link>
         </div>
        </Col>
        </Row>
 
       <Row>
-       <Col sm={12} md={12} lg={6}>
+       <Col sm={12} md={6} lg={6}>
         <div className="Project-header">
-        <Link to="/reacttwo"><img src={reactthree} alt="img" className="project"/></Link>
+        <Link to="/reactthree"><img src={reactthree} alt="img" className="project"/></Link>
         </div>
        </Col>
 
-       <Col sm={12} md={12} lg={6}>
+       <Col sm={12} md={6} lg={6}>
         <div className="Project-header">
         <Link to="/reactfour"><img src={reactfour} alt="img" className="project"/></Link>
         </div>

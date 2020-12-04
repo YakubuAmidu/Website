@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Reactnativethree extends Component{
+class Reactfour extends Component{
   render(){
     return(
       <div>
@@ -10,4 +10,4 @@ class Reactnativethree extends Component{
   }
 }
 
-export default Reactnativethree;
+export default Reactfour;
