@@ -7,7 +7,7 @@ import App from "./components/App";
 import Portfolio from "./components/Portfolio";
 import Jokes from "./components/Jokes";
 import MusicMaster from "./projects/music-master";
-import Contact from "./components/Contact";
+import SocialProfiles from "./components/SocialProfiles";
 import Reactone from "./screens/Reactone";
 import Reacttwo from "./screens/Reacttwo";
 import Reactthree from "./screens/Reactthree";
@@ -20,7 +20,7 @@ ReactDOM.render(
   <Route path="/portfolio" component={Portfolio} />
   <Route path="/jokes" component={Jokes} />
   <Route path="/music-master" components={MusicMaster} />
-  <Route path="/contact" components={Contact} />
+  <Route path="/socialProfiles" component={SocialProfiles} />
  <Route path="/reactone" components={Reactone} />
  <Route path="/reacttwo" components={Reacttwo} />
  <Route path="/reactthree" components={Reactthree} />

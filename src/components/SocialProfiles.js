@@ -18,7 +18,7 @@ const SocialProfile = (props) => {
 };
 
 const SocialProfiles = () => (
-  <div>
+  <div class="Icons-section">
     <h2 className="Connect">Connect with me</h2>
     <div>
       {SOCIAL_PROFILES.map((SOCIAL_PROFILE) => (

@@ -16,7 +16,7 @@ class Links extends Component{
              <NavDropdown.Item href="#action/3.1"><Link to="/portfolio" className="Link-two">PORTFOLIO</Link></NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2"><Link to="/jokes" className="Link-two">JOKES</Link></NavDropdown.Item>
             <NavDropdown.Item href="#action/3.1"><Link to="/music-master" className="Link-two">MUSIC MASTER</Link></NavDropdown.Item>
-           <NavDropdown.Item href="#action/3.3"><Link to="/contact" className="Link-two">CONTACT</Link></NavDropdown.Item>
+           <NavDropdown.Item href="#action/3.3"><Link to="/socialProfiles" className="Link-two">CONTACT</Link></NavDropdown.Item>
       </NavDropdown>
     </Nav>
   </Navbar.Collapse>
