@@ -8,7 +8,7 @@ import reactfour from '../assets/Reactfour.png';
 class Portfolio extends Component {
   render() {
     return (
-      <Container className='Project-header'>
+      <Container className='Project-header-one'>
         <p className='Project'>Hightlighted projects</p>
         <Row>
           <Col sm={12} md={6} lg={6}>
