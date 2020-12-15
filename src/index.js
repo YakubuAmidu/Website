@@ -8,10 +8,6 @@ import Portfolio from './components/Portfolio';
 import Jokes from './components/Jokes';
 import MusicMaster from './projects/music-master';
 import SocialProfiles from './components/SocialProfiles';
-import Reactone from './screens/Reactone';
-import Reacttwo from './screens/Reacttwo';
-import Reactthree from './screens/Reactthree';
-import Reactfour from './screens/Reactfour';
 
 ReactDOM.render(
   <Router history={createBrowserHistory()}>
