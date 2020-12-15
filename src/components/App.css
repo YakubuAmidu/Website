@@ -68,7 +68,8 @@ title-fade-in {
 
 .profile {
   width: 180px;
-  height: 200px;
+  height: 220px;
+  border-radius: 50px;
 }
 
 .Show {
@@ -126,6 +127,7 @@ title-fade-in {
 
 .Hightlighted {
   font-family: 'Anton', sans-serif;
+  margin-top: 30px;
   padding-top: 8px;
   padding-bottom: 8px;
   text-transform: uppercase;
@@ -153,6 +155,7 @@ title-fade-in {
 }
 
 .Connect {
+  margin-top: 30px;
   margin-bottom: 30px;
   color: green;
 }
