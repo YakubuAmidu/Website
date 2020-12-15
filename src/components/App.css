@@ -1,7 +1,7 @@
-body{
-    font-size: 30px;
-    color: #777;
-    line-height: 1.5;
+body {
+  font-size: 30px;
+  color: #777;
+  line-height: 1.5;
 }
 
 title-fade-in {
@@ -34,30 +34,29 @@ title-fade-in {
   }
 }
 
-.Link-one{
+.Link-one {
   color: #fff;
 }
 
-.Link-one:hover{
+.Link-one:hover {
   color: #fff;
   text-decoration: none;
 }
 
-.Link-two{
+.Link-two {
   color: #777;
 }
 
-.Link-two:hover{
+.Link-two:hover {
   text-decoration: none;
   color: #777;
 }
 
-
-.fa-laptop-code{
+.fa-laptop-code {
   font-size: 40px;
 }
 
-.Header-links{
+.Header-links {
   margin-bottom: 70px;
 }
 
@@ -67,22 +66,21 @@ title-fade-in {
   padding-right: 20px; */
 }
 
-
-.profile{
+.profile {
   width: 180px;
   height: 200px;
 }
 
-.Show{
+.Show {
   margin-bottom: 30px;
 }
 
-.Project-header{
+.Project-header {
   text-align: center;
   max-width: 1000px;
 }
 
-.Project{
+.Project {
   font-family: 'Anton', sans-serif;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -91,7 +89,7 @@ title-fade-in {
   color: green;
 }
 
-.projectone{
+.projectone {
   width: 100%;
   height: 600px;
   border-radius: 15px;
@@ -101,13 +99,13 @@ title-fade-in {
   background-position: center;
 }
 
-.projectone:hover{
+.projectone:hover {
   box-shadow: -2px 2px 10px 0px;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 
-.project{
+.project {
   width: 100%;
   height: 300px;
   border-radius: 15px;
@@ -117,16 +115,14 @@ title-fade-in {
   background-position: center;
 }
 
-.project:hover{
+.project:hover {
   box-shadow: -2px 2px 10px 0px;
-  transition: .5s ease-in-out;
-  cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 
-.Jokes{
+.Jokes {
   text-align: center;
 }
-
 
 .Hightlighted {
   font-family: 'Anton', sans-serif;
@@ -137,31 +133,31 @@ title-fade-in {
   color: green;
 }
 
-.Contact-header{
+.Contact-header {
   padding-bottom: 30px;
 }
 
-.Social-icons{
+.Social-icons {
   width: 50px;
   height: 50px;
   margin: 10px;
 }
 
-.Social-icons:hover{
+.Social-icons:hover {
   background-color: #eee;
   padding: 5px 5px;
 }
 
-.Icons-section{
+.Icons-section {
   text-align: center;
 }
 
-.Connect{
+.Connect {
   margin-bottom: 30px;
   color: green;
 }
 
-.Contact-icons{
+.Contact-icons {
   background-color: lightblue;
   color: #fff;
   border-radius: 15px;
@@ -172,11 +168,15 @@ title-fade-in {
   padding-right: 10px;
 }
 
-.Contact-icons:hover{
+.Contact-icons:hover {
   cursor: pointer;
   background-color: #eee;
 }
 
-.fa-envelope, .fa-github, .fa-twitter-square, .fa-facebook, .fa-instagram{
+.fa-envelope,
+.fa-github,
+.fa-twitter-square,
+.fa-facebook,
+.fa-instagram {
   font-size: 30px;
 }
